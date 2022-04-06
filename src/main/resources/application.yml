@@ -1,0 +1,10 @@
+management:
+  endpoints.enabled-by-default: true
+  endpoint.health.show-details: always
+  endpoints.web.exposure.include: "*"
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    enable:
+      all: true
